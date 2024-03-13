@@ -3,7 +3,7 @@ const NoteDB = require("../models/noteDb");
 
 class NoteRepository {
     constructor() {
-        db()
+        db() // TODO should be async..
     }
 
     async create(note, callback) {
