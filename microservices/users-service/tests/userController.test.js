@@ -1,13 +1,13 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { addUser, loginUser } = require('../controllers/userController');
-const UserRepository = require('../repositories/userRepository');
+const UserRepository = require('../data/repositories/userRepository');
 const User = require('../models/User');
 
 
 jest.mock('bcrypt');
 jest.mock('jsonwebtoken');
-jest.mock('../repositories/userRepository');
+jest.mock('../data/repositories/userRepository');
 
 describe('userController', () => {
   let req;

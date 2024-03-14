@@ -1,5 +1,5 @@
 const db = require("./remote_datasource/db");
-const NoteDB = require("../models/noteDb");
+const NoteDB = require("../entity/noteDb");
 
 class NoteRepository {
     constructor() {

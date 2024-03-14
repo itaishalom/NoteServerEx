@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const dotenv = require('dotenv')
-const {DATABASE_URL} = require("../../config");
+const {DATABASE_URL} = require("../../../config");
 
 dotenv.config()
 

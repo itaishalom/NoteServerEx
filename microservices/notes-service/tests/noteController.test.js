@@ -1,5 +1,5 @@
 const NoteController = require('../controllers/noteController');
-const NoteRepository = require('../repositories/noteRepository');
+const NoteRepository = require('../data/repositories/noteRepository');
 
 const mockRepository = {
     create: jest.fn(),

@@ -1,4 +1,4 @@
-const getRepositoryInstance = require("../repositories/noteRepository");
+const getRepositoryInstance = require("../data/repositories/noteRepository");
 
 class AuthMiddleware {
     constructor(noteRepository) {

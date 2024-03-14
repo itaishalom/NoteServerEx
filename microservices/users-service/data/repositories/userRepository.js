@@ -1,4 +1,4 @@
-const UserDB = require("../models/userDb");
+const UserDB = require("../entity/userDb");
 const db = require("./remote_datasource/db");
 
 

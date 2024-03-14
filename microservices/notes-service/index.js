@@ -2,7 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { PORT } = require('./config');
-const NoteRepository = require("./repositories/noteRepository");
+const NoteRepository = require("./data/repositories/noteRepository");
 const NoteController = require("./controllers/noteController");
 const AuthMiddleware = require("./middleware/authMiddleware");
 const AppLogger = require("./utils/appLogger");
