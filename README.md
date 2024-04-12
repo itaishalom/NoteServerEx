@@ -11,8 +11,8 @@
     * Login with existing credentials grants a secure password. 
 * ✅ Note Management:
     * Create new notes. 
-    * Search for notes based on criteria (implementation details can be specified here). ✅
-      * (Optional) Implement advanced search capabilities (e.g., full-text search, filtering by tags).  ⭐
+    * Search for notes based on criteria (implementation details can be specified here). 
+      * (Optional) Implement advanced search capabilities (e.g., full-text search, filtering by tags).  
     * Update existing notes. 
     * Delete notes. 
     * Secured access:
