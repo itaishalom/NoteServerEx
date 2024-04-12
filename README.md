@@ -10,14 +10,13 @@
     * Users can register for new accounts. 
     * Login with existing credentials grants a secure password. 
 * ✅ Note Management:
-    * Create new notes. 
-    * Search for notes based on criteria (implementation details can be specified here). 
-      * (Optional) Implement advanced search capabilities (e.g., full-text search, filtering by tags).  
+    * Create new notes.
+    * Advanced search capabilities (e.g., full-text search, filtering by tags).  
     * Update existing notes. 
     * Delete notes. 
     * Secured access:
-        * Logged-in users can only see their private notes. 
-        * Public notes are visible to everyone. 
+     * Logged-in users can only see their private notes. 
+     * Public notes are visible to everyone. 
 * ✅ Microservices Architecture:
     * Gateway: Handles user authentication and API routing. 
     * User Microservice: Manages user creation and login functionalities. 
