@@ -23,7 +23,7 @@
     * User Microservice: Manages user creation and login functionalities. 
     * Note Microservice: Handles all note-related operations (CRUD). 
 * ✅ Domain and Data Layers:
-    * Each microservice implements a clean separation between domain logic (business rules) and data access (interaction with MongoDB). ✅
+    * Each microservice implements a clean separation between domain logic (business rules) and data access (interaction with MongoDB). 
 * ✅ Fully test:
     * The app is tested to make sure it is robust. 
   
