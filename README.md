@@ -44,7 +44,7 @@
 2. Install dependencies:
 
    ```bash
-   cd crud-note-backend
+   cd NoteServer
    npm install
    ```
 
